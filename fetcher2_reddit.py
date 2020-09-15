@@ -16,11 +16,11 @@ words_list = pd.read_csv(r'keywords.csv')
 for index,row in words_list.iterrows():
     keywords.append(row['keywords'])
 
-reddit = praw.Reddit(client_id='H79XIp-7pu6EYQ', \
-                     client_secret='mmUM7rHwlJQWIi5PAzAON9aWkjM', \
-                     user_agent='kcxwdzx@sina.com', \
-                     username='chuanxinke', \
-                     password='Kcx1325879')
+reddit = praw.Reddit(client_id='', \
+                     client_secret='', \
+                     user_agent='', \
+                     username='', \
+                     password='')
 
 table_id="CREATE TABLE IF NOT EXISTS in_keywords (id TEXT, contents TEXT, time TEXT, tbmark TEXT,keywords TEXT, tfmark TEXT,lang TEXT)"
 upload_id="INSERT INTO in_keywords (id,contents,time,tbmark,keywords,tfmark,lang) VALUES (?,?,?,?,?,?,?)"

@@ -24,10 +24,10 @@ conn.commit()
 mission0_1.end()
 
 mission0_2=td.Mission('Get API Keys')
-ckey="MBVMeG1RfsLOYbmIgLCLtpU3k"
-csecret="EGG0oqJkYN9YpuygcNkqEbmPD07R5DBY4UvMx1TT5EsG4L1g92"
-atoken="1252968724790984704-IWFDW6PBDO1OuDJ2HDW5sOlUNq5P5X"
-asecret="siWgdfiJqp76296fYWzjsuVpfHyvBgnbM7sCrjjKcHxrD"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 mission0_2.end()
 
 # class object
